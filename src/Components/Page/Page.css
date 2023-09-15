@@ -1,0 +1,1986 @@
+.page-container {
+    width: 100%;
+    height: 1379px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: #252F3D;
+    display: flex;
+}
+
+.header-div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.header i {
+    display: none;
+}
+
+.header-div1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-div1 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.header-div2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-div2 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.header-div3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-div3 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header-div4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-div4 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.bar {
+    width: 90%;
+    height: 96px;
+    position: relative;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.bar-img1 {
+    width: 192px;
+    height: 36px;
+    position: relative;
+    left: 20px;
+}
+
+.bar div {
+    width: 202px;
+    height: 32px;
+    display: flex;
+    gap: 32px;
+    position: relative;
+    right: 15px;
+}
+
+.heading {
+    width: 636px;
+    height: 76px;
+    display: grid;
+    gap: 14px;
+    margin: auto;
+}
+
+.heading h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+}
+
+.heading p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4D5254;
+    margin: 0px;
+}
+
+.progress-bar {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.pro-bar-div1 {
+    height: 40px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.pro-bar-div1 div {
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    background: #85BF55;
+    border: 2px solid #85BF55;
+    border-radius: 50%;
+}
+
+.correct {
+    width: 20px;
+    height: 14px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 2.5px;
+}
+
+.pro-bar-div1 p {
+    width: 180px;
+    height: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.pro-bar-div2 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+.pro-bar-div2 div {
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    background: #85BF55;
+    border: 2px solid #85BF55;
+    border-radius: 50%;
+}
+
+.pro-bar-div2 p {
+    width: 163px;
+    height: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.pro-bar-div3 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+
+}
+
+.pro-bar-div3 div {
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    background: #2C7EF8;
+    border: 2px solid #2C7EF8;
+    border-radius: 50%;
+}
+
+.pro-bar-div3 p {
+    width: 201px;
+    height: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.pro-bar-div3 div p {
+    position: relative;
+    top: 10px;
+    left: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.pro-bar-div4 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+
+}
+
+.pro-bar-div4 div {
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    border: 2px solid #2C7EF8;
+    border-radius: 50%;
+}
+
+.pro-bar-div4 p {
+    width: 195px;
+    height: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.pro-bar-div4 div p {
+    position: relative;
+    top: 10px;
+    left: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C7EF8;
+    margin: 0px;
+}
+
+.middle-div {
+    width: 90%;
+    height: 879px;
+    position: relative;
+    top: 170px;
+    border-radius: 10px;
+    background: #FAFAFA;
+    margin: auto;
+}
+
+.middle-div-first {
+    display: flex;
+    width: 94%;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+.big-img {
+    width: 49%;
+    height: 591px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.big-content {
+    width: 49%;
+    position: relative;
+    display: grid;
+    gap: 32px;
+}
+
+.big-con-h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+    white-space: break-spaces;
+}
+
+.big-con-h1 span {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C7EF8;
+}
+
+.product {
+    height: 135px;
+    display: flex;
+    gap: 6px;
+
+}
+
+.product img {
+    width: 130px;
+    height: 134px;
+    position: relative;
+    top: 0.5px;
+    border-radius: 10px;
+
+}
+
+.product-div {
+    width: 383px;
+    height: 135px;
+    display: grid;
+    gap: 15px;
+
+}
+
+.pro-upper {
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-upper-p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+}
+
+.pro-upper-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pro-upper-p1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #969696;
+    margin: 0px;
+}
+
+.pro-upper-p2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C7EF8;
+    margin: 0px;
+}
+
+.star-area {
+    width: 98px;
+    height: 18px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.star-area img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    padding: 1.2px 1.56px 2.58px 1.56px;
+    border-radius: 16px;
+}
+
+.left {
+    width: 136px;
+    height: 22px;
+    display: flex;
+    gap: 16px;
+}
+
+.left img {
+    width: 16px;
+    height: 16px;
+}
+
+.left p {
+    width: 104px;
+    height: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #37465A;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.product-div-p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D5254;
+    margin: 0px;
+}
+
+.list-area {
+    width: 100%;
+    height: 98px;
+    display: grid;
+    gap: 16px
+}
+
+.list-area div {
+    width: 481px;
+    height: 22px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.list-area img {
+    width: 22px;
+    height: 22px;
+}
+
+.list-area p {
+    width: 447px;
+    height: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D5254;
+}
+
+.list-area p span {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D5254;
+}
+
+.offer-container {
+    width: 93%;
+    height: 56px;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    background: #EDF3FD;
+}
+
+.offer-container div {
+    width: 441px;
+    height: 32px;
+    display: flex;
+    gap: 16px;
+    margin: auto;
+}
+
+.offer-container img {
+    width: 19.2px;
+    height: 19.2px;
+    position: relative;
+    top: 6.4px;
+    left: 6.4px;
+
+}
+
+.offer-container p {
+    width: 393px;
+    height: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+    margin: 0px;
+}
+
+.offer-container p span {
+    color: #2C7EF8;
+}
+
+.discount-area {
+    width: 93%;
+    height: 149px;
+    display: grid;
+    gap: 20px;
+
+}
+
+.discount {
+    width: 100%;
+    height: 104px;
+    display: grid;
+    gap: 12px;
+
+}
+
+.discount-upper {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+    background: #59AE43;
+    margin: 0px;
+}
+
+.discount-upper div {
+    width: 290.76px;
+    height: 27px;
+    display: flex;
+    margin: auto;
+    gap: 19.76px;
+    align-items: center;
+    color: white;
+}
+
+.discount-upper p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.payment {
+    height: 26px;
+    padding: 5px 16px 5px 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 16px;
+    color: #CFCFCF;
+    border: 1px solid #CFCFCF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment-div {
+    display: flex;
+}
+
+.shipping {
+    width: 76px;
+    height: 17px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D5254;
+    margin: 0px;
+}
+
+.encryption {
+    width: 194px;
+    height: 12px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.encryption P {
+    width: 172px;
+    height: 9px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4D5254;
+    margin: 0px;
+}
+
+.v-bar {
+    width: 1px;
+    border: 1px;
+    transform: rotate(-90 deg);
+    background: #CFCFCF;
+    border: 1px solid #CFCFCF;
+    align-items: center;
+}
+
+.cards {
+    width: 180px;
+    height: 14px;
+    display: flex;
+    gap: 2px;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.cards img {
+    width: 24px;
+    height: 14px;
+
+}
+
+.discount-area h1 {
+    width: 269px;
+    height: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F82C2C;
+    text-decoration: underline;
+    margin: 0px;
+    margin: auto;
+}
+
+.last-div {
+    width: 93%;
+    display: flex;
+    gap: 16px;
+
+}
+
+.last-div img {
+    width: 80px;
+    height: 88px;
+
+}
+
+.last-div p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.last-div span {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ratings {
+    width: 45%;
+    height: fit-content;
+    position: absolute;
+    top: 655px;
+    left: 40px;
+    border-radius: 10px;
+    gap: 18px;
+    background: #FFFFFF;
+}
+
+.profile {
+    width: 237px;
+    height: 48px;
+    display: flex;
+    gap: 13px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+.profile-rating {
+    width: 176px;
+    height: 35.3px;
+
+}
+
+.profile-rating-upper {
+    width: 78.11px;
+    height: 11.95px;
+    position: relative;
+    top: 6.35px;
+    display: flex;
+}
+
+.profile-rating-upper img {
+    width: 11.95px;
+    height: 11.95px;
+
+}
+
+.profile-rating-down {
+    width: 176px;
+    height: 16px;
+    position: relative;
+    top: 13.65px;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.profile-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+    margin: 0px;
+}
+
+.verified {
+    width: 126px;
+    height: 16px;
+    display: flex;
+}
+
+.verified img {
+    width: 16px;
+    height: 16px;
+    left: 50px;
+    padding: 0px, 0px, 0px, 0px;
+}
+
+.verified p {
+    width: 100px;
+    height: 14px;
+    position: relative;
+    top: 1px;
+    left: 2px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5BB59A;
+    margin: 0px;
+}
+
+.description {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D5254;
+    padding-left: 25px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    top: 1350px;
+    padding: 20px 0px 20px 0px;
+    background: #252F3D;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    width: 401px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    /* left: 127px; */
+    border-radius: 4px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.copyright div {
+    width: 24px;
+    border: 1px;
+    transform: rotate(-90deg);
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    z-index: 100;
+}
+
+.copyright p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.footer-lastdiv {
+    position: relative;
+    top: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-lastdiv p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 360px) {
+    .page-container {
+        width: 360px;
+        height: 1225px;
+        top: -265px;
+        left: 1387px;
+        background: #FFFFFF;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .header {
+        width: 360px;
+        height: 42px;
+        padding: 10px, 20px, 10px, 20px;
+        justify-content: space-between;
+        background: #252F3D;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .header-div {
+        overflow-x: scroll;
+    }
+
+    .header i {
+        display: block;
+    }
+
+    .header i:first-child {
+        position: absolute;
+        left: 28px;
+        top: 9px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .header i:last-child {
+        position: absolute;
+        right: 28px;
+        top: 9px;
+        transform: translate();
+        font-size: 25px;
+        color: white;
+    }
+
+    .header-div1 {
+        position: absolute;
+        top: 10px;
+        left: 68px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-div1 p {
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .header-div2 {
+        position: absolute;
+        top: 15px;
+        left: 468px;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .header-div2 p {
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .header-div3 {
+        position: absolute;
+        top: 15px;
+        left: 847px;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .header-div3 p {
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .header-div4 {
+        width: 209px;
+        height: 22px;
+        position: absolute;
+        top: 15px;
+        left: 1154px;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .header-div4 p {
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .bar {
+        width: 90%;
+        height: 20px;
+        padding: 0px 0px 20px 0px;
+        position: relative;
+        top: 20px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 0px;
+    }
+
+    .bar-img1 {
+        width: 106.67px;
+        height: 20px;
+
+    }
+
+    .bar div {
+        width: 101px;
+        height: 16px;
+        gap: 16px;
+        display: flex;
+    }
+
+    .heading {
+        position: absolute;
+        top: 110px;
+        left: 23.5px;
+        display: grid;
+        gap: 24px;
+        width: 320px;
+        height: 126px;
+        gap: 10px
+    }
+
+    .heading h1 {
+        color: #000000;
+        font-family: 'Manrope', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .heading p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        color: #4D5254;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .progress-bar {
+        position: relative;
+        top: 230px;
+        left: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        margin: 0px;
+    }
+
+    .pro-bar-div1 {
+        display: grid;
+        align-items: center;
+        width: fit-content;
+        width: 67px;
+        height: 37px;
+        gap: 8px
+    }
+
+    .pro-bar-div1 div {
+        width: 20px;
+        height: 20px;
+        border: 2px;
+        background: #85BF55;
+        border: 2px solid #85BF55;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .correct {
+        position: relative;
+        width: 10px;
+        height: 7px;
+        top: -1px;
+        left: 5px;
+        border: 1.5px;
+
+    }
+
+    .pro-bar-div1 p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        text-align: left;
+        color: #000000;
+        margin: 0px;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        width: fit-content;
+
+    }
+
+    .pro-bar-div1 p span {
+        display: none;
+    }
+
+    .pro-bar-div2 {
+        display: grid;
+        align-items: center;
+        width: fit-content;
+        width: 55px;
+        height: 37px;
+        gap: 8px
+    }
+
+    .pro-bar-div2 div {
+        width: 20px;
+        height: 20px;
+        border: 2px;
+        background: #85BF55;
+        border: 2px solid #85BF55;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .pro-bar-div2 p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        color: #000000;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .pro-bar-div2 p span {
+        display: none;
+    }
+
+    .pro-bar-div3 {
+        display: grid;
+        align-items: center;
+        width: 75px;
+        height: 37px;
+        gap: 8px
+    }
+
+    .pro-bar-div3 div {
+        width: 20px;
+        height: 20px;
+        border: 2px;
+        background: #2C7EF8;
+        border: 2px solid #2C7EF8;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .pro-bar-div3 p {
+        width: 201px;
+        height: 14px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .pro-bar-div3 p span {
+        display: none;
+    }
+
+    .pro-bar-div3 div p {
+        position: relative;
+        top: 0px;
+        left: 6px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px;
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .pro-bar-div4 {
+        display: grid;
+        align-items: center;
+        width: 74px;
+        height: 37px;
+        gap: 8px
+    }
+
+    .pro-bar-div4 div {
+        width: 20px;
+        height: 20px;
+        border: 1px;
+        border: 1px solid #2C7EF8;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .pro-bar-div4 p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        white-space: nowrap;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px;
+        width: fit-content;
+
+    }
+
+    .pro-bar-div4 p span {
+        display: none;
+    }
+
+    .pro-bar-div4 div p {
+        position: relative;
+        top: -1px;
+        left: 6px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2C7EF8;
+        margin: 0px;
+    }
+
+    .middle-div {
+        position: relative;
+        top: 280px;
+        left: 18px;
+        border-radius: 10px;
+        background: #FAFAFA;
+        width: 320px;
+        height: 1062px;
+        gap: 24px;
+        margin: 0px;
+    }
+
+    .middle-div-first {
+        display: flex;
+        padding: 0px;
+    }
+
+    .big-img {
+        position: relative;
+        top: 130px;
+        left: 0px;
+        border-radius: 10px;
+        width: 320px;
+        height: 328px;
+        border-radius: 10px;
+    }
+
+    .big-content {
+        width: 330px;
+        height: 690px;
+        position: absolute;
+        top: 500px;
+        left: 4px;
+        display: grid;
+        gap: 32px;
+    }
+
+    .big-con-h1 {
+        width: 306px;
+        height: 113px;
+        font-family: 'Manrope', sans-serif;
+        letter-spacing: 0em;
+        color: #000000;
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        position: absolute;
+        left: 5px;
+        top: -483px;
+    }
+
+    .big-con-h1 span {
+        font-family: 'Manrope', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2C7EF8;
+    }
+
+    .product {
+        display: flex;
+        width: 320px;
+        height: 122px;
+        gap: 16px
+    }
+
+    .product img {
+        position: relative;
+        top: 0.5px;
+        border-radius: 10px;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+
+    .product-div {
+        display: grid;
+        width: 224px;
+        height: 58px;
+        gap: 10px;
+        position: relative;
+        top: 20px;
+        left: -16px;
+    }
+
+    .pro-upper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 224px;
+        height: 10px;
+    }
+
+    .pro-upper-p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .pro-upper-div {
+        width: 57px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    .pro-upper-p1 {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #969696;
+        margin: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0em;
+    }
+
+    .pro-upper-p2 {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2C7EF8;
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+
+    }
+
+    .star-area {
+        border-radius: 16px;
+        display: flex;
+        width: 68px;
+        height: 12px;
+        border-radius: 16px;
+    }
+
+    .star-area img {
+        position: relative;
+        border-radius: 16px;
+        width: 12px;
+        height: 12px;
+        padding: 0.8px 1.04px 1.72px 1.04px;
+
+    }
+
+    .left {
+        display: flex;
+        width: 106px;
+        height: 16px;
+        gap: 16px;
+    }
+
+    .left img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .left p {
+        width: 104px;
+        height: 22px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 300;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #37465A;
+        margin: 0px;
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .product-div-p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        color: #4D5254;
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        position: absolute;
+        left: -83px;
+        top: 60px;
+        width: 313px;
+    }
+
+    .list-area {
+        display: grid;
+        gap: 16px;
+        width: 320px;
+        height: 80px;
+        position: relative;
+        top: -46px;
+    }
+
+    .list-area div {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        width: 302px;
+        height: 16px;
+        gap: 12px
+    }
+
+    .list-area img {
+        width: 16px;
+        height: 16px;
+        padding: 1px 1.25px 1px 0.75px;
+    }
+
+    .list-area p {
+        width: 447px;
+        height: 12px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4D5254;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .list-area p span {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4D5254;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .offer-container {
+        gap: 10px;
+        display: flex;
+        background: #EDF3FD;
+        width: 310px;
+        height: 64px;
+        padding: 0px;
+        border-radius: 10px;
+        gap: 10px;
+        position: relative;
+        top: -78px;
+    }
+
+    .offer-container div {
+        display: flex;
+        gap: 16px;
+        width: 288px;
+        height: 40px;
+    }
+
+    .offer-container img {
+        position: relative;
+        top: 6.4px;
+        left: 6.4px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .offer-container p {
+        width: 393px;
+        height: 22px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    .offer-container p span {
+        color: #2C7EF8;
+    }
+
+    .discount-area {
+        display: grid;
+        width: 320px;
+        height: 162px;
+        gap: 12px;
+        position: relative;
+        top: -116px;
+    }
+
+    .discount {
+        display: grid;
+        gap: 12px;
+        width: 320px;
+        height: 134px;
+    }
+
+    .discount-upper {
+        border-radius: 50px;
+        display: flex;
+        gap: 10px;
+        background: #59AE43;
+        width: 315px;
+        height: 51px;
+        padding: 0px;
+        border-radius: 50px;
+        margin: 0px;
+    }
+
+    .discount-upper div {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        color: white;
+        width: 207px;
+        height: 19px;
+        gap: 16px;
+
+    }
+
+    .discount-upper p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .payment {
+        border-radius: 4px;
+        border: 1px;
+        color: #CFCFCF;
+        border: 1px solid #CFCFCF;
+        display: grid;
+        justify-content: space-evenly;
+        width: 321px;
+        height: 71px;
+        padding-left: 0px;
+        border-radius: 4px;
+        border: 1px;
+        gap: 0px;
+    }
+
+    .payment-div {
+        width: 289px;
+        height: 17px;
+        gap: 12px
+    }
+
+    .shipping {
+        width: 76px;
+        height: 17px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #4D5254;
+        margin: 0px;
+        white-space: nowrap;
+    }
+
+    .encryption {
+        display: flex;
+        width: 189px;
+        height: 12px;
+        gap: 8px;
+    }
+
+    .encryption P {
+        width: 169px;
+        height: 9px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #4D5254;
+        margin: 0px;
+
+    }
+
+    .v-bar {
+        width: 1px;
+        border: 1px;
+        transform: rotate(-90 deg);
+        background: #CFCFCF;
+        border: 1px solid #CFCFCF;
+        align-items: center;
+    }
+
+    .v-bar:last-child{
+        transform: rotate(90deg);
+        height: 179%;
+        position: absolute;
+        left: 154px;
+        top: -47px;
+    }
+    .cards {
+        width: 180px;
+        height: 14px;
+        display: flex;
+        gap: 2px;
+        justify-content: baseline;
+        align-items: center;
+        margin: auto;
+    }
+
+    .cards img {
+        width: 24px;
+        height: 14px;
+    }
+
+    .discount-area h1 {
+        width: 179px;
+        height: 16px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: #F82C2C;
+        text-decoration: underline;
+        margin: 0px;
+        margin: auto;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    .last-div {
+        display: flex;
+        gap: 16px;
+        width: 310px;
+        height: 77px;
+        position: relative;
+        top: -150px;
+    }
+
+    .last-div img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .last-div p {
+        width: 256px;
+        height: 77px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0px;
+    }
+
+    .last-div span {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .ratings {
+        display: none;
+    }
+
+    .profile {
+        width: 237px;
+        height: 48px;
+        display: flex;
+        gap: 13px;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+
+    .profile img {
+        width: 48px;
+        height: 48px;
+        border-radius: 100px;
+    }
+
+    .profile-rating {
+        width: 176px;
+        height: 35.3px;
+
+    }
+
+    .profile-rating-upper {
+        width: 78.11px;
+        height: 11.95px;
+        position: relative;
+        top: 6.35px;
+        display: flex;
+    }
+
+    .profile-rating-upper img {
+        width: 11.95px;
+        height: 11.95px;
+
+    }
+
+    .profile-rating-down {
+        width: 176px;
+        height: 16px;
+        position: relative;
+        top: 13.65px;
+        display: flex;
+        gap: 10px;
+        white-space: nowrap;
+    }
+
+    .profile-name {
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333;
+        margin: 0px;
+    }
+
+    .verified {
+        width: 126px;
+        height: 16px;
+        display: flex;
+    }
+
+    .verified img {
+        width: 16px;
+        height: 16px;
+        left: 50px;
+        padding: 0px, 0px, 0px, 0px;
+    }
+
+    .verified p {
+        width: 100px;
+        height: 14px;
+        position: relative;
+        top: 1px;
+        left: 2px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #5BB59A;
+        margin: 0px;
+    }
+
+    .description {
+        width: 527px;
+        height: 72px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4D5254;
+        padding-left: 25px;
+    }
+
+    .footer {
+        position: absolute;
+        top: 1470px;
+        background: #252F3D;
+        display: grid;
+        justify-content: space-between;
+        width: 360px;
+        height: 102px;
+        padding: 0px;
+        gap: 0px;
+        left: 0px;
+
+    }
+
+    .copyright {
+        position: relative;
+        top: 10px;
+        left: 26px;
+        border-radius: 4px;
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+        width: 301px;
+        height: 33px;
+        padding: 8px 0px 8px 0px;
+        gap: 12px;
+
+    }
+
+    .copyright div {
+        transform: rotate(90deg);
+        background: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        width: 14px;
+        border: 1px;
+        height: 1px;
+    }
+
+    .copyright p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+
+    }
+
+    .footer-lastdiv {
+        position: relative;
+        top: -10px;
+        display: flex;
+        gap: 16px;
+        width: 201px;
+        height: 13px;
+        margin: auto;
+        left: 28px;
+    }
+
+    .footer-lastdiv p {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
